@@ -1,0 +1,38 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: wheat;
+}
+
+.title {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+
+}
+#clockTime {
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    /* background-color: rgb(217, 171, 171); */
+    color: whitesmoke;
+}
